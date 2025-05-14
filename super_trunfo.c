@@ -26,7 +26,7 @@ void comparar_cartas(Carta carta1, Carta carta2) {
     float atributo1 = carta1.pib_per_capita;
     float atributo2 = carta2.pib_per_capita;
 
-    printf("Comparação de cartas (Atributo: PIB per capita):\n\n");
+    printf("Comparacao de cartas (Atributo: PIB per capita):\n\n");
     printf("Carta 1 - %s (%s): %.2f\n", carta1.nome, carta1.estado, atributo1);
     printf("Carta 2 - %s (%s): %.2f\n", carta2.nome, carta2.estado, atributo2);
 
@@ -41,7 +41,7 @@ void comparar_cartas(Carta carta1, Carta carta2) {
 
 int main() {
     // Cadastro de duas cartas
-    Carta carta1 = {"São Paulo", "SP01", "São Paulo", 12300000, 1521.11, 699000000000.0, 10};
+    Carta carta1 = {"Sao Paulo", "SP01", "Sao Paulo", 12300000, 1521.11, 699000000000.0, 10};
     Carta carta2 = {"Rio de Janeiro", "RJ01", "Rio de Janeiro", 6748000, 1182.30, 364000000000.0, 8};
 
     // Calcular atributos derivados
